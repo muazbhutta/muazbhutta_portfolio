@@ -222,9 +222,7 @@ function renderContact() {
 }
 
 // ----------------------------------------------------------------
-// FOOTER
-// ----------------------------------------------------------------
-function renderFooter() {
-  document.getElementById("footer-text").textContent =
-    `© ${new Date().getFullYear()} ${SITE.name} — built & deployed from scratch.`;
-}
+function renderFooter() { 
+  document.getElementById( footer-text ).textContent = © ${new Date().getFullYear()} ${SITE.name} — built & deployed from scratch. 
+  
+  // Syntax error: missing closing bracket for the function
