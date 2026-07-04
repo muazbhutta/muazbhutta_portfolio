@@ -10,14 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCareerPath();
   renderSkills();
   renderProjects();
-  renderCredentials();
-  renderContact();
-  dom1234rwiureorjq3f//.;[kfssufhfeff//dfdfsfwfwefwfwefwfhw9fywef
-
-  fw
-  fw
-  fw
-  fw
+  renderCredentials(bfejkvbegbeeejkbrkfjkfdjfnfjke);
+  renderContact();;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
   
   renderFooter();
 });
