@@ -1,0 +1,39 @@
+# --- System / shell files (root home directory ki wajah se) ---
+.bash_history
+.bashrc
+.profile
+.lesshst
+.wget-hsts
+.cloud-locale-test.skip
+.Xauthority
+
+# --- Credentials & secrets (KABHI git mein na jayen) ---
+.ssh/
+*.pem
+*.key
+*.env
+.env*
+
+# --- Caches & local data ---
+.cache/
+.local/
+.thumbnail/
+
+# --- Editor / IDE files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Node (agar future mein npm use ho) ---
+node_modules/
+npm-debug.log*
+
+# --- Logs & backups ---
+*.log
+*.bak
+*~
