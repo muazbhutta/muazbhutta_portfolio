@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
   renderProjects();
   renderCredentials();
   renderContact();
+  dom1234rwiureorjq3f//.;[kfssufhfeff//dfdfsfwfwefwfwefwfhw9fywef
+
+  fw
+  fw
+  fw
+  fw
+  
   renderFooter();
 });
 
