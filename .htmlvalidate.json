@@ -1,0 +1,10 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "no-inline-style": "off",
+    "element-name": "off",
+    "attr-case": "off",
+    "unique-landmark": "off",
+    "no-implicit-button-type": "off"
+  }
+}
