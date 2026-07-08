@@ -161,6 +161,7 @@ deploy:production:
     name: production
     url: $PROD_URL
   when: manual
+  allow_failure: false
   script:
     - mkdir -p "$PROD_DIR"
     - rsync -a --delete "$PROD_DIR"/ "${PROD_DIR}.previous"/ || true
@@ -187,6 +188,7 @@ rollback:production:
   stage: rollback
   needs: ["deploy:production"]
   when: manual
+  allow_failure: false
   script:
     - test -d "${PROD_DIR}.previous" || (echo "No previous release" && exit 1)
     - rsync -a --delete "${PROD_DIR}.previous"/ "$PROD_DIR"/
