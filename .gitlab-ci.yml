@@ -118,7 +118,7 @@ smoke:dist:
 
 package:release:
   stage: package
-  needs: ["smoke:dist"]
+  needs: ["smoke:dist", "build:site"]
   script:
     - VERSION=$(node -p "require('./dist/build-info.json').version")
     - tar -czf "portfolio-${VERSION}.tar.gz" -C dist .
