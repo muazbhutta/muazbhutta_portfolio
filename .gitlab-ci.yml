@@ -156,7 +156,7 @@ verify:staging:
 
 deploy:production:
   stage: deploy-prod
-  needs: ["verify:staging"]
+  needs: ["verify:staging", "build:site"]
   environment:
     name: production
     url: $PROD_URL
